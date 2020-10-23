@@ -15,9 +15,9 @@ export default class Note extends PureComponent {
 
 const style = StyleSheet.create({
   note: {
-    width: 110,
-    height: 146,
-    marginBottom: 10,
+    width: 100,
+    height: 130,
+    marginBottom: 5,
   },
   name: {
     fontSize: 128,
