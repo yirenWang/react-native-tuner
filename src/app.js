@@ -119,6 +119,29 @@ export default class App extends Component {
             />
           </View>
         </View>
+        <View style={style.scale}>
+          <View style={style.button}>
+            <Button
+            style={this.state.button}
+            title="1=A"
+            onPress={() => this.setState({scale:9})}
+            />
+          </View>
+          <View style={style.button}>
+            <Button
+            style={this.state.button}
+            title="1=C"
+            onPress={() => this.setState({scale:0})}
+            />
+          </View>
+          <View style={style.button}>
+            <Button
+            style={this.state.button}
+            title="1=E"
+            onPress={() => this.setState({scale:4})}
+            />
+          </View>
+        </View>
       </View>
     );
   }
